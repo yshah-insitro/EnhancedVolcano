@@ -777,7 +777,7 @@ EnhancedVolcano <- function(
       colour = borderColour, fill = NA, size = borderWidth))
   } else if (border == 'partial') {
     plot <- plot + theme(axis.line = element_line(
-      size = borderWidth, colour = borderColour),
+      linewidth = borderWidth, colour = borderColour),
       panel.border = element_blank(),
       panel.background = element_blank())
   } else {
